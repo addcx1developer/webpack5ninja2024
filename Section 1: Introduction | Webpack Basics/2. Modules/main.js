@@ -1,10 +1,5 @@
-const { add: addNumbers, subtract } = require('./functions');
+import * as $ from './functions';
 
-function add() {
-	console.log('Hello');
-}
-
-const output = addNumbers(1, 2);
-add();
+const output = $.add(1, 2);
 
 console.log(output);
