@@ -1,7 +1,12 @@
-import './index.css';
 import _ from 'lodash';
+import style from './index.css';
+import './clearButton';
 
-document.getElementById('button1').addEventListener('click', function () {
+console.log(style);
+
+const btn1 = document.getElementById('button1');
+
+btn1.addEventListener('click', function () {
 	const el = document.getElementById('header');
 	el.innerHTML = 'Hey I have updated the code!';
 
@@ -13,3 +18,5 @@ document.getElementById('button1').addEventListener('click', function () {
 		ul.appendChild(tempEl);
 	});
 });
+
+btn1.classList.add([style.button]);
