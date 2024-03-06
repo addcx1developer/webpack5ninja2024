@@ -1,0 +1,19 @@
+{
+	"name": "1.-css-loaders",
+	"version": "0.0.1",
+	"author": "addcx1developer",
+	"license": "ISC",
+	"private": true,
+	"scripts": {
+		"build": "webpack --config webpack.config.js --mode development"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"css-loader": "^6.10.0",
+		"style-loader": "^3.3.4",
+		"webpack": "^5.90.3",
+		"webpack-cli": "^5.1.4"
+	}
+}
