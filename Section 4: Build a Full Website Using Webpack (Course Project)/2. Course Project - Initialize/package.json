@@ -4,6 +4,9 @@
 	"author": "addcx1developer",
 	"license": "ISC",
 	"private": true,
+	"scripts": {
+		"dev": "webpack --config webpack.config.js --mode development"
+	},
 	"dependencies": {
 		"bootstrap": "^5.3.3",
 		"jquery": "^3.7.1",
