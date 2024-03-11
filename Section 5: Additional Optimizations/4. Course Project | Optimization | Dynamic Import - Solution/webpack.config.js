@@ -9,7 +9,7 @@ module.exports = {
 		courses: './src/pages/courses.js',
 	},
 	output: {
-		filename: '[name].bundle.js',
+		filename: '[name].[contenthash].js',
 		path: path.resolve(__dirname, 'dist'),
 		clean: true,
 	},
@@ -53,7 +53,7 @@ module.exports = {
 				},
 			],
 		}),
-		// new BundleAnalyzerPlugin({}),
+		new BundleAnalyzerPlugin({}),
 	],
 	optimization: {
 		splitChunks: {
