@@ -6,7 +6,7 @@
 
 -   Understand and implement Webpack 5 basics
 -   Learn basics of Micro Frontends
--   Learn about optimizing builds using techniques like Tree shaking , multiple bundles , caching and more
+-   Learn about optimizing builds using techniques like Tree shaking, multiple bundles, caching, and more
 
 ## Udemy Certificate
 
